@@ -1,0 +1,67 @@
+.tittle {
+  color: burlywood;
+  margin: 50px;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.segmentsdisplay {
+  position: relative;
+  flex-wrap: wrap;
+  width: 200px;
+  /* box-sizing: border-box; */
+  display: flex;
+}
+
+.segment {
+  border-radius: 80px;
+  width: 40px;
+  height: 190px;
+  margin: 5px;
+}
+
+.segment.a,
+.g,
+.d {
+  right: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  width: 110px;
+  height: 40px;
+}
+
+.containerVertical {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.segment.on {
+  background-color: rgb(123, 0, 139);
+}
+
+.segment.off {
+  background-color: grey;
+}
+
+.segment.a {
+  top: -30px;
+}
+
+.segment.d {
+  top: 0;
+  bottom: 0;
+}
+
+.segment.g {
+  bottom: -30px;
+}
